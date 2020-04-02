@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="1dp">
+
+    <TextView
+        android:id="@+id/textViewSavedData"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:padding="2dp"
+        android:text="@string/saved_data"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextEnterName"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:digits="@string/name_characters_allowed"
+        android:maxLength="17"
+        android:layout_marginTop="25dp"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:padding="7dp"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextEnterPhone"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:hint="@string/enter_phone"
+        android:padding="7dp"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonApplyText"
+        android:layout_width="224dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="12dp"
+        android:padding="7dp"
+        android:text="@string/apply_text"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/switchSavedData"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="7dp" />
+
+    <Button
+        android:id="@+id/buttonSaveData"
+        android:layout_width="224dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:padding="7dp"
+        android:text="@string/save_data"
+        android:textSize="25sp" />
+</LinearLayout>
+

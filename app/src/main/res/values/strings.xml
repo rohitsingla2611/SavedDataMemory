@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Saved Data Memory</string>
+    <string name="apply_text">APPLY TEXT</string>
+    <string name="save_data">SAVE DATA</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="saved_data">SAVED DATA</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="name_characters_allowed">ABCDEFGH
+        IJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvw
+        xyz</string>
+
+</resources>
