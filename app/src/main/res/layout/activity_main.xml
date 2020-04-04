@@ -23,25 +23,25 @@
         android:id="@+id/editTextEnterName"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:digits="@string/name_characters_allowed"
-        android:maxLength="17"
         android:layout_marginTop="25dp"
+        android:digits="@string/name_characters_allowed"
         android:hint="@string/enter_name"
         android:inputType="textPersonName"
-        android:textAlignment="center"
+        android:maxLength="17"
         android:padding="7dp"
+        android:textAlignment="center"
         android:textSize="25sp" />
 
     <EditText
         android:id="@+id/editTextEnterPhone"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:maxLength="10"
-        android:inputType="phone"
         android:hint="@string/enter_phone"
+        android:inputType="phone"
+        android:maxLength="10"
         android:padding="7dp"
-        android:textSize="25sp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/buttonApplyText"
