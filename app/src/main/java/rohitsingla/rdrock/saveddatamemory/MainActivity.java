@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public static final String SHARED_PREFS = "sharedPrefs";
     public static final String DATA = "namePhone";
-    public static final String PHONE = "phone";
     public static final String SWITCH_SAVED_DATA = "switchSavedData";
     TextView textViewSavedData;
     EditText editTextEnterName, editTextEnterPhone;
